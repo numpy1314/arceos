@@ -7,4 +7,6 @@ use axstd::println;
 #[cfg_attr(feature = "axstd", unsafe(no_mangle))]
 fn main() {
     println!("Hello, world!");
+    println!("looping...");
+    loop {} // Keep the program running indefinitely
 }
